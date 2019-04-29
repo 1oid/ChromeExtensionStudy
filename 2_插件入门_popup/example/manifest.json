@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "popuphtml",
+    "version": "1.0",
+    "browser_action": {
+        "default_title": "popup的title",
+        "default_popup": "popup.html"
+    }
+}
