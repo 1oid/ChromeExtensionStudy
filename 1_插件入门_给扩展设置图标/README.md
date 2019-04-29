@@ -26,6 +26,15 @@ ___
 
 ### 实例 example
 ```
+目录层次
+├── example
+│   ├── icons
+│   │   ├── icon_grey.png
+│   │   └── icon_red.png
+│   └── manifest.json
+```
+
+```
 {
     "manifest_version": 2,
     "name": "给扩展设置图标",
