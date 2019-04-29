@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "给扩展设置图标",
+    "version": "1.0",
+    "description": "给扩展设置图标的描述",
+    "icons": {
+        "16": "./icons/icon_red.png",
+        "48": "./icons/icon_red.png",
+        "128": "./icons/icon_red.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "./icons/icon_grey.png",
+            "32": "./icons/icon_grey.png"
+        }
+    }
+}
