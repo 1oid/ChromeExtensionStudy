@@ -20,5 +20,14 @@ ___
 }
 ```
 
+### 例子目录结构
+```
+├── example
+│   ├── manifest.json
+│   └── popup.html
+
+0 directories, 2 files
+```
+
 ### 加载浏览器扩展查看效果
 ![](./images/0.png)
