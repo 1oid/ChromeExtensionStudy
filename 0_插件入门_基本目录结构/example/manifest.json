@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "扩展的 name 字段",
+    "version": "1.0",
+    "description": "扩展描述",
+    "browser_action": {
+        "default_title": "鼠标移到工具栏的扩展上显示的title",
+        "default_popup": "popup.html"
+    }
+}
