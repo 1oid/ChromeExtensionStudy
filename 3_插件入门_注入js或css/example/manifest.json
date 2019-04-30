@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "js注入",
+    "version": "1.0",
+    "description": "插件入门,js注入实例",
+    "content_scripts": [
+        {
+            "matches": ["*://www.baidu.com/*"],
+            "js": ["./content.js"],
+            "css": ["./css.css"]
+        }
+    ]
+}
