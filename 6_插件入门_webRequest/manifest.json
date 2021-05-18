@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Chrome WebRequest API",
+    "version": "1.0",
+    "description": "day6",
+    "background": {
+        "scripts": ["js/bg.js"]
+    },
+    "permissions": [
+        "<all_urls>",
+        "webRequest",
+        "webRequestBlocking"
+    ]
+}
